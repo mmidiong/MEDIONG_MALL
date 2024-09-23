@@ -20,8 +20,13 @@
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="login.html">Sign In</a></li>
-                    <li><a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:24px;color:black"></i></a></li>
+                    <li id="lg-cart"><a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:24px;"></i></a></li>
+                    <a href="#" id="close"><i class="fa fa-times"></i></a>
                 </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:24px;"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
             </div>
         </section>
 
@@ -249,7 +254,7 @@
 
         <footer class="section-p1">
             <div class="col">
-                <img src="images/logo8.png" class="logo" style="width: 18%" style="height: 80%" alt="">
+                <img class="logo" src="images/logo8.png" style="width: 18%" style="height: 80%" alt="">
                 <h4>Contact</h4>
                 <p><strong>Address:</strong>#47 Oron Road, Uyo</p>
                 <p><strong>Phone:</strong>+234(0)700MEDIONG</p>
@@ -268,17 +273,17 @@
 
             <div class="col">
                 <h4>About</h4>
-                <a href="#">About us</a>
+                <a href="#" onclick="window.location.href='about.html';">About us</a>
                 <a href="#">Delivery Information</a>
                 <a href="#">Privacy Policy</a>
                 <a href="#">Terms & Conditions</a>
-                <a href="#">Contact Us</a>
+                <a href="#" onclick="window.location.href='contact.html';">Contact Us</a>
             </div>
 
             <div class="col">
                 <h4>My Account</h4>
-                <a href="#">Sign In</a>
-                <a href="#">View Cart</a>
+                <a href="#" onclick="window.location.href='login.html';">Sign In</a>
+                <a href="#" onclick="window.location.href='cart.html';">View Cart</a>
                 <a href="#">My Whishlist</a>
                 <a href="#">Track My Order</a>
                 <a href="#">Help</a>

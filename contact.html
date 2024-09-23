@@ -20,8 +20,13 @@
                     <li><a href="about.html">About</a></li>
                     <li><a class="active" href="contact.html">Contact</a></li>
                     <li><a href="login.html">Sign In</a></li>
-                    <li><a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:24px;color:black"></i></a></li>
+                    <li id="lg-cart"><a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:24px;"></i></a></li>
+                    <a href="#" id="close"><i class="fa fa-times"></i></a>
                 </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:24px;"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
             </div>
         </section>
 
@@ -55,7 +60,7 @@
                 </div>
 
                 <div class="home">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4759.228887352906!2d7.867587848347237!3d5.042974849708015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105d55d826a44685%3A0xdb6b04b878104613!2s47%20Oron%20Rd%2C%20Uyo%20531118%2C%20Akwa%20Ibom!5e0!3m2!1sen!2sng!4v1726059975259!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4759.228887352906!2d7.867587848347237!3d5.042974849708015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105d55d826a44685%3A0xdb6b04b878104613!2s47%20Oron%20Rd%2C%20Uyo%20531118%2C%20Akwa%20Ibom!5e0!3m2!1sen!2sng!4v1726059975259!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
             </div>
@@ -93,7 +98,7 @@
 
         <footer class="section-p1">
             <div class="col">
-                <img src="images/logo8.png" class="logo" style="width: 18%" style="height: 80%" alt="">
+                <img class="logo" src="images/logo8.png" style="width: 18%" style="height: 80%" alt="">
                 <h4>Contact</h4>
                 <p><strong>Address:</strong>#47 Oron Road, Uyo</p>
                 <p><strong>Phone:</strong>+234(0)700MEDIONG</p>
@@ -112,17 +117,17 @@
 
             <div class="col">
                 <h4>About</h4>
-                <a href="#">About us</a>
+                <a href="#" onclick="window.location.href='about.html';">About us</a>
                 <a href="#">Delivery Information</a>
                 <a href="#">Privacy Policy</a>
                 <a href="#">Terms & Conditions</a>
-                <a href="#">Contact Us</a>
+                <a href="#" onclick="window.location.href='contact.html';">Contact Us</a>
             </div>
 
             <div class="col">
                 <h4>My Account</h4>
-                <a href="#">Sign In</a>
-                <a href="#">View Cart</a>
+                <a href="#" onclick="window.location.href='login.html';">Sign In</a>
+                <a href="#" onclick="window.location.href='cart.html';">View Cart</a>
                 <a href="#">My Whishlist</a>
                 <a href="#">Track My Order</a>
                 <a href="#">Help</a>
